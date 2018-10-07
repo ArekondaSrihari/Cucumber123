@@ -20,7 +20,6 @@ public class TestBase {
 			FileInputStream fs= new FileInputStream("C:/Users/admin/eclipse-workspace/Pageobjmodel/src/main/java/com/config.properties");
 				prop.load(fs);
 		} catch (Exception e) {
-			// TODO: handle exception
 			e.getMessage();
 		}
 	}
